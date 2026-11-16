@@ -44,4 +44,26 @@ a.spectrum-row:hover .spectrum-count{color:#fff}
 .case-table caption{display:block}
 }
 a.hero-stat{text-decoration:none;cursor:pointer;transition:opacity .18s ease}a.hero-stat:hover{opacity:.72}a.hero-stat:focus-visible{outline:2px solid #7fa08d;outline-offset:4px}a.chip{color:var(--text-soft);text-decoration:none;cursor:pointer}a.chip:hover{filter:brightness(.96)}.tl-meta a{color:inherit;text-decoration:none}.tl-meta a:hover{text-decoration:underline}
-.signal-region{font-size:.72rem;line-height:1.5;color:var(--muted);border:1px solid var(--rule);border-radius:2px;padding:.02rem .38rem;white-space:nowrap;align-self:center}
+.signal-region{color:var(--muted);border:1px solid var(--rule);border-radius:2px;padding:.04rem .3rem;white-space:nowrap}
+
+/* ==== AI-Ready 手机适配（2026-11-16） ==== */
+@media (max-width:720px){
+.topbar-inner{gap:6px;padding-block:8px}
+.brand{gap:7px}
+.brand-mark{font-size:.56rem;padding:2px 5px 1px;letter-spacing:.12em}
+.brand-name{font-size:.94rem}
+.nav{flex-wrap:nowrap;overflow-x:auto;gap:2px;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav-link{font-size:.82rem;padding:5px 9px;white-space:nowrap}
+.hero-title{font-size:1.68rem;line-height:1.28;margin-bottom:14px}
+.hero-lede{font-size:.92rem;line-height:1.78;margin-bottom:22px}
+.hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:18px 16px;padding-top:18px}
+.hero-stat b{font-size:1.66rem}
+.hero-stat:last-child{grid-column:1/-1}
+.section-head{margin-bottom:22px;gap:10px}
+.section-head h2{font-size:1.32rem}
+.section-head p{font-size:.88rem;line-height:1.7}
+.signal-text{font-size:.86rem;line-height:1.65}
+.spark{height:22px}
+.spark i{max-width:34px}
+}
